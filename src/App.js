@@ -1,0 +1,25 @@
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Navbar, Sidebar, Footer } from './components';
+import styled from 'styled-components';
+import {
+  Home,
+  SingleProduct,
+  Cart,
+  Checkout,
+  Error,
+  About,
+  Products,
+  Private,
+} from './pages';
+
+function App() {
+  return (
+    <div>
+      <h4>comfy sloth starter</h4>
+      <Home />
+    </div>
+  );
+}
+
+export default App;
