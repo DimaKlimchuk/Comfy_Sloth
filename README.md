@@ -6,6 +6,8 @@
 2. Create Navbar
    <img alt="Navbar" src="./src/images/Navbar.png">
 3. Create Cart Buttons
-   <img alt="Navbar" src="./src/images/Cart-buttons.png">
+   <img alt="Buttons" src="./src/images/Cart-buttons.png">
 4. Create Footer
-   <img alt="Navbar" src="./src/images/Footer.png">
+   <img alt="Footer" src="./src/images/Footer.png">
+5. Create Sidebar
+   <img alt="Sidebar" src="./src/images/Sidebar.png">
