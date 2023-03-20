@@ -1,6 +1,6 @@
-## Comfy_Sloth
+# Comfy_Sloth
 
-# Changes
+## Changes
 
 1. Add Router
 2. Create Navbar
