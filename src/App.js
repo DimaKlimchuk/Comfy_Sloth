@@ -15,10 +15,32 @@ import {
 
 function App() {
   return (
-    <div>
-      <h4>comfy sloth starter</h4>
-      <Home />
-    </div>
+    <Router>
+      <Navbar />
+      <Sidebar />
+      <Switch>
+        <Route exat path="/">
+          <Home />
+        </Route>
+        <Route exat path="/about">
+          <About />
+        </Route>
+        <Route exat path="/cart">
+          <Cart />
+        </Route>
+        <Route exat path="/products">
+          <Products />
+        </Route>
+        <Router exat path="/products/:id" children={<SingleProduct />} />
+        <Route exact path="/checkout">
+          <Checkout />
+        </Route>
+        <Route path="*">
+          <Error />
+        </Route>
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 
