@@ -19,3 +19,9 @@
 6. Product Context Setup
 
 7. Sidebar Toggle
+
+8. Error Page
+   <img alt="Sidebar" src="./src/images/Error.png">
+
+9. About Page
+   <img alt="Sidebar" src="./src/images/About.png">
