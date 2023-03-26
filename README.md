@@ -1,5 +1,11 @@
 # Comfy Sloth
 
+## Description
+
+Here you can find my own ecomerce project. I'm creating this by using a React JS framework.
+Why React?
+For today it's the most popular framework of JS, I can build a great SPA(singel page application), all in project constructed by components(small pieces of app) this help to me very easy create a nice ecomerce project.
+
 ## Changes
 
 1. Add Router
