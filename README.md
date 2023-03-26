@@ -17,3 +17,5 @@
    <img alt="Sidebar" src="./src/images/Sidebar.png">
 
 6. Product Context Setup
+
+7. Sidebar Toggle
