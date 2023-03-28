@@ -2,9 +2,8 @@
 
 ## Description
 
-Here you can find my own ecomerce project. I'm creating this by using a React JS framework.
-Why React?
-For today it's the most popular framework of JS, I can build a great SPA(singel page application), all in project constructed by components(small pieces of app) this help to me very easy create a nice ecomerce project.
+Here, you can find my own e-commerce project. I'm creating it using the React JS framework.
+Why React? Because it's currently the most popular JS framework and it allows me to build a great SPA (single-page application). The entire project is constructed using components (small pieces of the app), which makes it very easy for me to create a nice e-commerce project.
 
 ## Changes
 
