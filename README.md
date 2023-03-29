@@ -30,3 +30,6 @@ Why React? Because it's currently the most popular JS framework and it allows me
 
 9. About Page
    <img alt="Sidebar" src="./src/images/About.png">
+
+10. Home Page - Hero
+    <img alt="Sidebar" src="./src/images/Hero.png">
