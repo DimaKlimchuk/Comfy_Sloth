@@ -36,3 +36,6 @@ Why React? Because it's currently the most popular JS framework and it allows me
 
 11. Home Page - Services
     <img alt="Services" src="./src/images/Services.png">
+
+12. Home Page - Contact
+    <img alt="Contact" src="./src/images/Contact.png">
