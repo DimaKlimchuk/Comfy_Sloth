@@ -26,10 +26,13 @@ Why React? Because it's currently the most popular JS framework and it allows me
 7. Sidebar Toggle
 
 8. Error Page
-   <img alt="Sidebar" src="./src/images/Error.png">
+   <img alt="Error Page" src="./src/images/Error.png">
 
 9. About Page
-   <img alt="Sidebar" src="./src/images/About.png">
+   <img alt="About Page" src="./src/images/About.png">
 
 10. Home Page - Hero
-    <img alt="Sidebar" src="./src/images/Hero.png">
+    <img alt="Hero" src="./src/images/Hero.png">
+
+11. Home Page - Services
+    <img alt="Services" src="./src/images/Services.png">
