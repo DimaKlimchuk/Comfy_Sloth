@@ -13,11 +13,16 @@ const Contact = () => {
             assumenda? Tempore accusamus molestiae maxime voluptate, repellat
             deleniti est exercitationem recusandae voluptas cum laboriosam?
           </p>
-          <form className="contact-form">
+          <form
+            className="contact-form"
+            action="https://formspree.io/f/xpzebwny"
+            method="POST"
+          >
             <input
               type="email"
               className="form-input"
               placeholder="enter email"
+              name="email"
             />
             <button type="submit" className="submit-btn">
               subscribe
