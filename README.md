@@ -42,3 +42,6 @@ Why React? Because it's currently the most popular JS framework and it allows me
 
 13. Home Page - Featured Products
     <img alt="Featured Products" src="./src/images/Featured_Products.png">
+
+14. Single Product - Base Return
+    <img alt="Featured Products" src="./src/images/Single_Product_Base_Return.png">
