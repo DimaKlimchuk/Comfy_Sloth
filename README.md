@@ -45,3 +45,6 @@ Why React? Because it's currently the most popular JS framework and it allows me
 
 14. Single Product - Base Return
     <img alt="Featured Products" src="./src/images/Single_Product_Base_Return.png">
+
+15. Single Product - Product Images
+    <img alt="Featured Products" src="./src/images/Single_Product_Product_Images.png">
