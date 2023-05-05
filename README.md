@@ -48,3 +48,6 @@ Why React? Because it's currently the most popular JS framework and it allows me
 
 15. Single Product - Product Images
     <img alt="Featured Products" src="./src/images/Single_Product_Product_Images.png">
+
+16. Single Product - Product Stars
+    <img alt="Featured Products" src="./src/images/Single_Product_Product_Stars.png">
