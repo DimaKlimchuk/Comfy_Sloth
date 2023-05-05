@@ -44,10 +44,13 @@ Why React? Because it's currently the most popular JS framework and it allows me
     <img alt="Featured Products" src="./src/images/Featured_Products.png">
 
 14. Single Product - Base Return
-    <img alt="Featured Products" src="./src/images/Single_Product_Base_Return.png">
+    <img alt="Single Product" src="./src/images/Single_Product_Base_Return.png">
 
 15. Single Product - Product Images
-    <img alt="Featured Products" src="./src/images/Single_Product_Product_Images.png">
+    <img alt="Single Product" src="./src/images/Single_Product_Product_Images.png">
 
 16. Single Product - Product Stars
-    <img alt="Featured Products" src="./src/images/Single_Product_Product_Stars.png">
+    <img alt="Single Product" src="./src/images/Single_Product_Product_Stars.png">
+
+17. Single Product - Add to Cart
+    <img alt="Single Product" src="./src/images/Single_Product_Add_to_Cart.png">
