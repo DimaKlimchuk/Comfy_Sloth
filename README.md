@@ -54,3 +54,8 @@ Why React? Because it's currently the most popular JS framework and it allows me
 
 17. Single Product - Add to Cart
     <img alt="Single Product" src="./src/images/Single_Product_Add_to_Cart.png">
+
+18. Sort Component
+
+19. Filters
+    <img alt='Sort Component and Filters' src="./src/images/Products.png">

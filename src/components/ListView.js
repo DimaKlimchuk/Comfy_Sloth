@@ -12,7 +12,7 @@ const ListView = ({ products }) => {
             <img src={image} alt={name} />
             <div>
               <h4>{name}</h4>
-              <h5 className="price">{formatPrice()}</h5>
+              <h5 className="price">{formatPrice(product.price)}</h5>
               <p>{description.substring(0, 150)}...</p>
               <Link to={`/products/${id}`} className="btn">
                 Details
