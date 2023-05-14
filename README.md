@@ -60,5 +60,5 @@ Why React? Because it's currently the most popular JS framework and it allows me
 19. Filters
     <img alt='Sort Component and Filters' src="./src/images/Products.png">
 
-20. Cart
+20. Cart 
     <img alt='Sort Component and Filters' src="./src/images/Cart.png">
