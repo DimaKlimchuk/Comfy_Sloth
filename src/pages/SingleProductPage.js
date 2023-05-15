@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useParams, useHistory } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { useProductsContext } from '../context/products_context';
 import { single_product_url as url } from '../utils/constants';
 import { formatPrice } from '../utils/helpers';
@@ -13,10 +13,9 @@ import {
 } from '../components';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-
 const SingleProductPage = () => {
   const { id } = useParams();
-  const history = useHistory();
+  const navigate = useNavigate();
   const {
     single_product_loading: loading,
     single_product_error: error,
@@ -28,22 +27,21 @@ const SingleProductPage = () => {
     fetchSingleProduct(`${url}${id}`);
     // eslint-disable-next-line
   }, [id]);
-
   useEffect(() => {
     if (error) {
       setTimeout(() => {
-        history.push('/');
+        navigate('/');
       }, 3000);
     }
     // eslint-disable-next-line
   }, [error]);
-
   if (loading) {
     return <Loading />;
   }
   if (error) {
     return <Error />;
   }
+
   const {
     name,
     price,
@@ -68,17 +66,17 @@ const SingleProductPage = () => {
             <h2>{name}</h2>
             <Stars stars={stars} reviews={reviews} />
             <h5 className="price">{formatPrice(price)}</h5>
-            <p className="description">{description}</p>
+            <p className="desc">{description}</p>
             <p className="info">
               <span>Available : </span>
               {stock > 0 ? 'In stock' : 'out of stock'}
             </p>
             <p className="info">
-              <span>SKU : </span>
+              <span>SKU :</span>
               {sku}
             </p>
             <p className="info">
-              <span>Brand : </span>
+              <span>Brand :</span>
               {company}
             </p>
             <hr />
